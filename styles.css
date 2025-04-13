@@ -54,3 +54,16 @@ button:active {
   justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .title-text {
+    font-size: 50px;
+  }
+
+  .dice {
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    margin-bottom: 70px;
+  }
+}
+

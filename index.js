@@ -12,13 +12,15 @@ randomDice.push("./images/dice-six-faces-two.png");
 randomDice.push("./images/dice-six-faces-three.png");
 randomDice.push("./images/dice-six-faces-four.png");
 randomDice.push("./images/dice-six-faces-five.png");
-randomDice.push("./images/dice-six-faces-six.png");
+randomDice.push("./images/dice-six.png");
 
 function randomDiceGenerator() {
-	randomNumberOne = Math.floor(Math.random() * 7);
-	randomNumberTwo = Math.floor(Math.random() * 7);
+	randomNumberOne = Math.floor(Math.random() * 5 + 1);
+	randomNumberTwo = Math.floor(Math.random() * 5 + 1);
 	diceOne.setAttribute("src", randomDice[randomNumberOne]);
+	diceOne.setAttribute("alt", "Number " + randomNumberOne + " Dice");
 	diceTwo.setAttribute("src", randomDice[randomNumberTwo]);
+	diceTwo.setAttribute("alt", "Number " + randomNumberTwo + " Dice");
 	result();
 }
 

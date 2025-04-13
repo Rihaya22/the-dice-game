@@ -56,14 +56,24 @@ button:active {
 
 @media (max-width: 600px) {
   .title-text {
-    font-size: 50px;
+    font-size: 30px;
+  }
+
+  .sub-text {
+    font-size: 15px;
+    margin-top: 10px;
   }
 
   .dice {
-    padding: 10px;
-    border-radius: 50px;
-    width: 150px;
-    margin-bottom: 70px;
+    padding: 5px;
+    border-radius: 25px;
+    width: 100px;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    padding: 5px 15px;
+    font-size: 15px;
   }
 }
 

@@ -1,0 +1,56 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  background-color: brown;
+}
+
+.title-text {
+  font-size: 80px;
+  color: w;
+  margin-bottom: 0;
+}
+
+.sub-text {
+  font-size: 25px;
+}
+
+.dice-player-text {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.dice {
+  padding: 40px;
+  width: 200px;
+  border-radius: 80px;
+  overflow: hidden;
+}
+
+.my-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 10px 40px;
+  background-color: white;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+button:active {
+  background-color: gray;
+  transform: scale(0.95);
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+

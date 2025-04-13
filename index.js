@@ -33,7 +33,7 @@ function result() {
 			subText.innerHTML = "Try again!"
 	} else {
 			headerText.innerHTML = "Player 2 Win";
-			subText.innerHTML = "Congratulations";
+			subText.innerHTML = "Congratulations!";
 	}
 }
 
